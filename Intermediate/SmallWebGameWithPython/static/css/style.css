@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* สีพื้นหลังอ่อนให้ความรู้สึกผ่อนคลาย */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+button {
+    display: inline-block;
+    background-color: #3498db; /* สีฟ้าสำหรับปุ่ม */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* สีเข้มขึ้นเมื่อชี้เมาส์ */
+}
+
+#game-selection, #result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#guess-result, #dice-result, #rps-result, #coin-flip-result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #16a085; /* สีเขียวสำหรับข้อความผลลัพธ์ */
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Center</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Game Center</h1>
+
+    <h2>Choose a game to play:</h2>
+    <button onclick="startDiceGame()">Roll Dice</button>
+    <button onclick="showRPS()">Rock Paper Scissors</button>
+    <button onclick="showCoinFlip()">Flip Coin</button>
+    <button onclick="showNumberGuess()">Number Guessing Game</button>
+
+    <div id="game-selection"></div>
+    <div id="result"></div>
+
+<script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>
